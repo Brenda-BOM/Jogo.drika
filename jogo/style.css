@@ -1,0 +1,32 @@
+ccenter{
+    font-size: 30px;
+}
+
+body{
+    background-color: #eeeeee;
+}
+
+#form1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#x1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5%;
+    margin-top: 40px;
+}
+
+h3{
+    text-align: center;
+}

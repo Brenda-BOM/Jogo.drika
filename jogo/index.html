@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <center>Faça sua aposta</center>
+    <br>
+    <div id="form1">
+        <form>
+            <select id="aposta">
+                <option value="1">Círculo</option>
+                <option value="2">Quadrado</option>
+                <option value="3">Retângulo</option>
+            </select>
+        </form>
+    </div><br>
+    <div id="x1"><canvas id="x" width="300" height="300" style="border: 1px solid black"></canvas></div>
+    <div id="botoes">
+        <button id="botaoJogar" onclick="Desenhar()">Começar</button>
+        <button onclick="Limpar()">Reiniciar</button>
+    </div>
+    <h3>Acertos: <label id="acertos">0</label></h3> 
+    <h3>Erros: <label id="erros">0</label></h3> 
+    <script src="script.js"></script>
+</body>
+
+</html>
